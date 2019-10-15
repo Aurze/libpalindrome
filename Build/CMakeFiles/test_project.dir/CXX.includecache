@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Sources/src/fibonacci.h
+
+/Sources/src/main.cpp
+fibonacci.h
+/Sources/src/fibonacci.h
+iostream
+-
+

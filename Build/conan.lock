@@ -1,0 +1,20 @@
+{
+ "profile": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++\ncompiler.version=9\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n",
+ "graph_lock": {
+  "nodes": {
+   "4eac9f5a-ee31-11e9-9e9f-0242ac110002": {
+    "pref": null,
+    "options": "",
+    "requires": {
+     "catch2/2.4.2@bincrafters/stable#0": "4eac9adc-ee31-11e9-9e9f-0242ac110002"
+    },
+    "path": "/Sources/conanfile.txt"
+   },
+   "4eac9adc-ee31-11e9-9e9f-0242ac110002": {
+    "pref": "catch2/2.4.2@bincrafters/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": ""
+   }
+  }
+ },
+ "version": "0.1"
+}
